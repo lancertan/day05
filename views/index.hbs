@@ -1,0 +1,54 @@
+<form method="POST" action="/search">
+
+<div class="form-group">
+    <label for="newsSearch"><h2>News Search</h2></label>
+    <input type="text" name="newsSearch" id="newsSearch" class="form-control" placeholder="Placeholder">
+</div>
+
+<div class="form-group">
+    <div class="row">
+        <div class="col">
+            <input type="radio" name="country" id="us" value="us">
+            <label for="us"><img src="us.png" alt=""></label>
+        </div>
+        <div class="col">
+            <input type="radio" name="country" id="uk" value="uk">
+            <label for="uk"><img src="uk.png" alt=""></label>
+        </div>
+        <div class="col">
+            <input type="radio" name="country" id="fr" value="fr">
+            <label for="fr"><img src="fr.png" alt=""></label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="radio" name="country" id="sg" value="sg">
+            <img src="sg.png" alt="">
+        </div>
+        <div class="col">
+            <input type="radio" name="country" id="jp" value="jp">
+            <img src="jp.png" alt="">
+        </div>
+        <div class="col">
+            <input type="radio" name="country" id="cn" value="cn">
+            <img src="cn.png" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <select name="category" id="category" class="form-control">
+        <option value="business" class="form-control">Business</option>
+        <option value="entertainment" class="form-control">Entertainment</option>
+        <option value="general" class="form-control">General</option>
+        <option value="health" class="form-control">Health</option>
+        <option value="science" class="form-control">Science</option>
+        <option value="sports" class="form-control">Sports</option>
+        <option value="technology" class="form-control">Technology</option>
+    </select>
+</div>
+
+<div class="d-flex">
+    <button type="submit" class="btn btn-outline-secondary btn-block">Search</button>
+</div>
+</form>
